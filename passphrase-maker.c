@@ -585,37 +585,37 @@ int main(int argc, char* argv[]) {
   /* Read in the word lists. */
 
   singular_count_noun_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/singular-count-nouns",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/singular-count-nouns",
                &singular_count_noun_array);
   plural_count_noun_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/plural-count-nouns",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/plural-count-nouns",
                &plural_count_noun_array);
   mass_noun_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/mass-nouns",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/mass-nouns",
                &mass_noun_array);
   adjective_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/adjectives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/adjectives",
                &adjective_array);
   intransitive_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/intransitives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/intransitives",
                &intransitive_array);
   transitive_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/transitives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/transitives",
                &transitive_array); 
   tpspi_intransitive_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/tpspi-intransitives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/tpspi-intransitives",
                &tpspi_intransitive_array);
   tpspi_transitive_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/tpspi-transitives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/tpspi-transitives",
                &tpspi_transitive_array);
   past_intransitive_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/past-intransitives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/past-intransitives",
                &past_intransitive_array);
   past_transitive_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/past-transitives",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/past-transitives",
                &past_transitive_array);
   preposition_count =
-    dyna_alloc("/home/stone/datasets/passphrase-maker/prepositions",
+    dyna_alloc("/home/abuahchu/sysadmin/passphrase/passphrase-maker/prepositions",
                &preposition_array);
   
   /* Set up a random number generator. */
